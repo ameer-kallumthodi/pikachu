@@ -59,7 +59,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    YAK: process.env.YAK === undefined ? '919895339960,0' : process.env.YAK,
+    YAK: process.env.YAK === undefined ? '919946432377,0' : process.env.YAK,
     OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'Ameer Suhail' : process.env.OWNER_SHIP,
     LOGO: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/SoIxkUE.jpeg' : process.env.LOGO_LINK,
     BOTV2: process.env.BOTV2_NAME === undefined ? 'Pikachu' : process.env.BOTV2_NAME,
