@@ -1,14 +1,14 @@
 {
-  "name": "Rudhra",
+  "name": "pikachu",
   "version": "7.3.6",
-  "description": "Rudhra is the Modified Version of WhatsAsena, Made By @prince-rudh with Baileys.",
-  "main": "./Rudhra/bot.js",
+  "description": "Pikachu is the Modified Version of WhatsAsena, Made By @ameer-kallumthodi with Baileys.",
+  "main": "./pikachu/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prince-rudh/Rudhra.git"
+    "url": "git+https://github.com/ameer-kallumthodi/pikachu.git"
   },
   "keywords": [
     "whatsapp",
@@ -18,12 +18,12 @@
     "WhatsAsena"
   ],
   "author": "prince-rudh",
-  "developer": "@TOXIC-DEVIL / @prince-rudh",
+  "developer": "@TOXIC-DEVIL / @ameer-kallumthodi",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/prince-rudh/Rudhra/issues"
+    "url": "https://github.com/ameer-kallumthodi/pikachu/issues"
   },
-  "homepage": "https://github.com/prince-rudh/Rudhra#readme",
+  "homepage": "https://github.com/ameer-kallumthodi/pikachu#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
