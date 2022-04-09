@@ -62,7 +62,6 @@ bash <(curl -L https://t.ly/tHxh)
 
   <p align="center">
   <a href="httsp://github.com/ameer-kallumthodi/pikachu">
-    <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/pikachu?color=Magenta&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/ameer-kallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=Magenta&style=flat-square"></a>
 </p>
