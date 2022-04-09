@@ -1,7 +1,7 @@
 {
-  "name": "pikachu",
+  "name": "Pikachu",
   "version": "7.3.6",
-  "description": "Pikachu is the Modified Version of WhatsAsena, Made By @ameer-kallumthodi with Baileys.",
+  "description": "pikachu is the Modified Version of WhatsAsena.",
   "main": "./pikachu/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
@@ -14,18 +14,18 @@
     "whatsapp",
     "bot",
     "ai",
-    "asena",
-    "WhatsAsena"
+    "Pinky",
+    "Afnanplk"
   ],
-  "author": "prince-rudh",
-  "developer": "@TOXIC-DEVIL / @ameer-kallumthodi",
+  "author": "Ameer Suhail",
+  "developer": "@ameer-kallumthodi",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/ameer-kallumthodi/pikachu/issues"
+    "url": "https://github.com//ameer-kallumthodi/pikachu/issues"
   },
-  "homepage": "https://github.com/ameer-kallumthodi/pikachu#readme",
+  "homepage": "https://github.com//ameer-kallumthodi/pikachu#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "3.5.3",
+    "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
     "browser-id3-writer": "^4.4.0",
