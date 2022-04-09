@@ -39,7 +39,7 @@ bash <(curl -L https://t.ly/tHxh)
   
 1. If you dont have a github account create a account. Click [GIT HUB SIGN UP](https://github.com/signup/)
 
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@PrinceRudh/Rudhra-QR?v=1)
+2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@pikachucreator/pikachu-QR?v=1)
  
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
@@ -117,7 +117,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developer
   <div align="center">
     
-  [![`Prince Rudh`](https://github.com/prince-rudh.png?size=200)](https://github.com/princerudh)
+  [![`Prince Rudh`](https://github.com/ameer-kallumthodi.png?size=200)](https://github.com/ameer-kallumthodi)
 
 [`Ameer Suhail`](https://github.com/ameer-kallumthodi)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
