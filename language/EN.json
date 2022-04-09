@@ -79,7 +79,7 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Rudhra",
+            "RESTART_DESC": "Restart Pikachu",
             "RESTART_MSG": "```Restarting...```",
             "SHUTDOWN_DESC": "Shutdown Bot",
             "SHUTDOWN_MSG": "```Appo Seri Tata📴```",
@@ -153,7 +153,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! Rudhra ini varathilla 🥲```",
+            "KICKME": "```Bye bye! Pikachu ini varathilla 🥲```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -240,7 +240,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*ƦUÐҤƦλ ł$ ₡ØMPŁE₸EŁ¥ UP-₸Ø-Ðλ₸E!*",
-            "NEW_UPDATE": "*₦E₩ UPÐλ₸E λVλłŁλBŁE ₣ØƦ ƦUÐҤƦλ!*\n\n*To update Bot give this command: .update now*\n\n*Supporting Group Join First: https://chat.whatsapp.com/HVpTaTICeUi2G7hPlUlGUP*\n\n*https://youtube.com/c/PrinceRudh*\n\nChanges:\n```",
+            "NEW_UPDATE": "*₦E₩ UPÐλ₸E λVλłŁλBŁE ₣ØƦ Pikachu!*\n\n*To update Bot give this command: .update now*\n\n*Supporting Group Join First: https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf*\n\n*https://www.youtube.com/c/AREditz1*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "```ƦUÐҤƦλ UPÐλ₸E ₡ҤE¥¥λ₸₸E...⏳```",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
@@ -280,7 +280,7 @@
             "APK_MOD": "It sends some special mod apks",
             "CARBON_DESC": "It sends carbon picture",
             "TEMP": "Temperature",
-            "BOT_DESC": "Chat with Rudhra.\n Use .molu <message>",
+            "BOT_DESC": "Chat with Pikachu.\n Use .molu <message>",
             "BOT": ":",
             "DEVICE": "It shows the details of device",
             "DESC": "Description",
@@ -303,14 +303,14 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Rudhra Converts video to sound.",
+            "MP4TOAUDİO_DESC": "Pikachu Converts video to sound.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Rυԃԋɾα Cσɳʋҽɾƚιɳɠ Vιԃҽσ ƚσ Aυԃισ..```",
+            "MP4TOAUDİO": "```Pikachu Cσɳʋҽɾƚιɳɠ Vιԃҽσ ƚσ Aυԃισ..```",
             "ANİM_STİCK": "Converts animated stickers to video.",
             "ANİMATE": "```Converting Animated Sticker To Video..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
             "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```ʀᴜᴅʜʀᴀ ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ..```",
+            "STİCKER": "```Pikachu ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ..```",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
@@ -399,9 +399,9 @@
             "MUTE_OPEN": "```The group chat has unmuted!```"
         },
         "unvoice": {
-            "UV_DESC": "Rudhra Converts audio to sound recording.",
+            "UV_DESC": "Pikachu Converts audio to sound recording.",
             "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Rudhra Converting to Sound Recording..```"
+            "UV_PROC": "```pikachu Converting to Sound Recording..```"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
