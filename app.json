@@ -1,108 +1,122 @@
 {
-    "name": "PIKACU BY AMEER SUHAIL",
-    "description": "pikachu bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "PIKACHU",
+    "description": "Pikachu is the Modified Version of WhatsAsena, Made By @Ameer Suhail with Baileys.",
     "logo": "https://i.imgur.com/SoIxkUE.jpeg",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
+    "keywords": ["whatsapp", "userbot", "pikachu", "WhatsAsena", "pikachu", "bot", "ai"],
     "repository": "https://github.com/ameer-kallumthodi/pikachu",
-    "website":   "under maintenance",
-    "success_url": "under maintenance",
+    "website":   "https://github.com/ameer-kallumthodi/pikachu",
+    "success_url": "https://github.com/ameer-kallumthodi/pikachu",
     "stack": "container",
     "env": {
         "PIKACHU_SESSION": {
-            "description": " Type here yours pikachu Session.",
+            "description": "Type here yours Pikachu Session.",
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
+            "required": false
+        },
+        "NUMBER": {
+            "description": " If you want to add  owner number to your git contact, enter the number here, and be careful not to use + and space when entering the number. Example: 91xxxxxxxxx",
             "required": false
         },
         "LANGUAGE": {
-            "description": "only en & ml language is available",
+            "description": "Rudhra bot language. Malayalam => ml, English => en",
             "required": true,
             "value": "en"
         },
-        "WEL_GIF": {
-            "description": "Fill here any gif link if you selected gif as WELCOME",
+        "BGM_FILTER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "false"
+            "value": "true"
         },
-        "BAD_WORDS": {
-            "description": "enter the word you dont allow in your group ",
-            "required": true,
-            "value": "false"
+        "AUTO_STICKER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "true"
         },
-         "CALLER_BLOCK": {
-            "description": "block when they call you - true , else - false",
-            "required": true,
+        "WELCOME": {
+            "description": "You can select welcome as gif/pp",
+            "required": false,
+            "value": "pp"
+        },
+        "WEL_GIF": {
+            "description": "Fill here any gif link if you selected gif as WEELCOME",
+            "required": false,
             "value": "false"
         },
         "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
             "value": "false"
-        },   
-        "PM_BLOCK": {
-            "description": "block when someone messages you in pm",
+        },
+        "ANTİ_LİNK": {
+            "description": "Link Blocking System.",
             "required": true,
             "value": "false"
-        },  
-        "BGM_PM": {
-            "description": "true => activate bgm reply in pm",
+        },
+        "AUTO_BİO": {
+            "description": " Set true for auto date, time in biography.",
             "required": true,
-            "value": "true"
-        },  
-         "PINKY_PM": {
-            "description": "true => activate talking pinky in pm",
+            "value": "false"
+        },
+        "PM_BLOCK": {
+
+            "description": "Link Blocking System.",
+
             "required": true,
-            "value": "true"
-        },  
-        "NUMBER": {
-            "description": "give your orginal phone number if you wish to add it in .number cmnd ",
-            "required": false
-        },      
-        "OWNER_NAME": {
-            "description": "reply for .owner ! give your details, Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },    
+
+            "value": "false"
+
+        },
         "HANDLERS": {
-            "description": ". For commands.",
+            "description": "For commands.",
             "required": true,
             "value": "^[.!;]"
+        },
+        "FULL_EVA": {
+            "description": "Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
+        "PIKACHU_AI": {
+            "description": "turn on chat back auto reply Pikachu (use true to on and fale to off)",
+            "required": true,
+            "value": "false"
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "SEND_READ": {
-            "description": " Write true if you want to throw seen.",
+            "description": "Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
-           "ALL_CAPTION": {
-            "description": "Caption for images and videos generated by pinky bot",
+        "ALL_CAPTION": {
+            "description": "Caption for images and videos generated by rudhra bot",
             "required": false,
-            "value": "PUBLIC BOT"
+            "value": "ᴍᴀᴅᴇ ʙʏ ᴀᴍᴇᴇʀ ꜱᴜʜᴀɪʟ"
         },
         "HEROKU": {
-            "description": " If it is running in Heroku, type true.",
+            "description": "If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
-         "BOT_NAME": {
-            "description": "heading for .list command reply",
-            "required": false,
-            "value": "•━━━╼⤏PIKACHU BOT⤎╾━━━•"
-        },      
         "HEROKU_API_KEY": {
-            "description": " Heroku API Key.",
+            "description": "Heroku API Key.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": ". Customizable Mute Message! Use => default, to change back.",
+            "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
+        },
+        "TAG_HEADER": {
+            "description": "Heading when taging all",
+            "required": false,
+            "value": "Ҥλł λŁŁ"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
@@ -110,12 +124,12 @@
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": " Customizable Unmute Message! Use => default, to change back.",
+            "description": "Customizable Unmute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": " Customizable Block Message! Use => default, to change back.",
+            "description": "Customizable Block Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
@@ -124,37 +138,68 @@
             "required": false,
             "value": "default"
         },
+        "BOT_NAME": {
+            "description": "heading for .list command reply",
+            "required": false,
+            "value": " ⚡℘їкѦ¢ℌʊ⚡  \n\n   *ωнαтsαρρ вσт™*   \n"
+        },
         "WORK_TYPE": {
-            "description": "pikachu Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
+            "description": "Pikachu Working Type. If you use “public”, everyone can use the bot. Pikachu if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
-            "description": "",
+            "description": "Debugging",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "https://remove.bg",
-            "required": false
-        },
-        "DEPLOYER": {
-            "description": "enter your name here",
+            "description": "https://remove.bg code👉 kEdSuSh5PYYaTHMachqNUxZh 👈this code for u copy and paste  and enjoy",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! use {pp} if you want to add profile picture also add {qt} if you want to add qoutes in your welcome message",
+            "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "i am alive  \n\n ```coded by Ameer Suhail```\n\n```{qt}```"
+            "value": "〄 ʜᴇʏ ᴜѕᴇʀ ___________ 〄 \n│〄 ʙᴏᴛ ɴᴀᴍᴇ : ᴩɪᴋᴀᴄʜᴜ \n│〄 ᴅᴇᴠᴇʟᴏᴘᴇʀ : ©ᴀᴍᴇᴇʀ ꜱᴜʜᴀɪʟ\n│〄 ᴠᴇʀѕɪᴏɴ       : 𝟹.𝟶.𝟶\n│〄 ʟᴀɴɢᴜᴀɢᴇ   : ᴇɴɢʟɪѕʜ \n│〄 ᴡᴏʀᴋ ᴛʏᴘᴇ  : ᴘᴜʙʟɪᴄ\n│〄 ᴀɪ ʙᴏᴛ          : @ᴡʜᴛsᴀᴘᴘ\n│          \n│  \n│     \n│    \n│      ᴄʀᴇᴀᴛᴇᴅ  ʙʏ : ᴀᴍᴇᴇʀ ꜱᴜʜᴀɪʟ  \n╰───────────────────\n╭───────────────────\n│Hey 💬 help message type \n│.menu .help .list 💬\n│👾──────👾──────👾\n╰───────────────────"
+        },
+        "ALIVEBUTTON": {
+            "description": "Set the alive message two name",
+            "required": true,
+            "value": "ʜᴇʟʟᴏ ʙʀᴏ"
+        },
+        "ALIVE_BUTTON": {
+            "description": "Set the Alive message first name",
+            "required": true,
+            "value": "ʜɪ ᴅᴜᴅᴇ"
+        },
+        "LG_LOGO": {
+            "description": "LOGO list message image link(https://telegra.ph/)link.",
+            "required": true,
+            "value": "https://telegra.ph/file/1bea9f85b6ada60bea65c.jpg"
+        },
+        "LOGO_NAME": {
+            "description": "Set the logo list name",
+            "required": true,
+            "value": "⚡℘їкѦ¢ℌʊ⚡"
         },
         "BAN_MESSAGE": {
-            "description": "Customizable kick Message! Use => default, to change back.",
+            "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "good bye"
+            "value": "default"
+        },
+        "SONGD": {
+            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
+            "required": true,
+            "value": "✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ᦔꪮ᭙ꪀꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ✮⃝🎧"
+        },
+        "SONGU": {
+            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
+            "required": true,
+            "value": "✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ꪊρꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ ✮⃝🎧"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
@@ -162,9 +207,9 @@
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "Customizable leave Message! Use => default, to change back.",
+            "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```its time to leave bye bye``` \n"
+            "value": "default"
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
@@ -181,12 +226,8 @@
             "required": false,
             "value": "default"
         },
-        "TAG_REPLY": {
-            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
-            "required": false          
-        },
         "NO_ONLINE": {
-            "description": " Type true if you don't want to appear online.",
+            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         }
