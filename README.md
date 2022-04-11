@@ -70,7 +70,7 @@ bash <(curl -L https://t.ly/tHxh)
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://i.imgur.com/reMlxoc.png)](https://chat.whatsapp.com/HVpTaTICeUi2G7hPlUlGUP)
+  [![join](https://i.imgur.com/reMlxoc.png)](http://wa.me/+919946432377)
   <div align="center">
        
   </div>
