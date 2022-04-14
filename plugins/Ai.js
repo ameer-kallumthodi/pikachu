@@ -31,7 +31,7 @@ let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
 var reply_eva = ''
 if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to Rudhra voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'Starts to Pikachu voice chat.', reply_eva = '*Reply to Any Voice Message!*'
 if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
 if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
 if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
@@ -236,29 +236,29 @@ var already_off = ''
 var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
-    fulleva_dsc = 'Tam fonksiyonel pinky özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
-    already_on = 'pinky yapay zekası halihazırda tüm fonksiyonları etkin.'
-    already_off = 'pinky yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
-    succ_on = 'pinky, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
-    succ_off = 'pinky, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
+    fulleva_dsc = 'Tam fonksiyonel Pikachu özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
+    already_on = 'Pikachu yapay zekası halihazırda tüm fonksiyonları etkin.'
+    already_off = 'Pikachu yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
+    succ_on = 'Pikachu, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
+    succ_off = 'Pikachu, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Activates full functional Rudhra features. Turn your account into a ai chatbot!'
-    already_on = 'Rudhra artificial intelligence is already fully functional.'
-    already_off = 'Rudhra artificial intelligence is currently running semi-functional.'
-    succ_on = 'Rudhra Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Rudhra Set to Semi-Functional! Please wait a bit! ☑️'
+    fulleva_dsc = 'Activates full functional Pikachu features. Turn your account into a ai chatbot!'
+    already_on = 'Pikachu artificial intelligence is already fully functional.'
+    already_off = 'Pikachu artificial intelligence is currently running semi-functional.'
+    succ_on = 'Pikachu Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Pikachu Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
-    fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Rudhra സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
-    already_on = 'Rudhra കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
-    already_off = 'Rudhra നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
-    succ_on = 'Rudhra പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Rudhra സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Pikachu സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
+    already_on = 'Pikachu കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
+    already_off = 'Pikachu നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
+    succ_on = 'Pikachu പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
+    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Pikachu സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
 Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.chatbot on / off' }, (async (message, match) => {
-    var pinky_status = `${conf.RUDHRA_AI}`
+    var pinky_status = `${conf.PIKACHU_AI}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
@@ -266,7 +266,7 @@ Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,do
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['RUDHRA_AI']: 'true'
+                    ['PIKACHU_AI']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
@@ -279,7 +279,7 @@ Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,do
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['RUDHRA_AI']: 'false'
+                    ['PIKACHU_AI']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
