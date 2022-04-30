@@ -112,7 +112,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developer
   <div align="center">
     
-  [![`Prince Rudh`](https://github.com/ameer-kallumthodi.png?size=200)](https://github.com/ameer-kallumthodi)
+  [![`Ameer Suhail`](https://github.com/ameer-kallumthodi.png?size=200)](https://github.com/ameer-kallumthodi)
 
 [`Ameer Suhail`](https://github.com/ameer-kallumthodi)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
