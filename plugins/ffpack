@@ -10,7 +10,7 @@ const code = "*_50 FF LOGO PACK_*\n\n*🧞‍♂️.ff01 : Makes FF logo*\n\n�
 
 if (Config.WORKTYPE == 'public') {
     
-      Rudh.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
+      Rudh.addCommand({pattern: 'fpack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
